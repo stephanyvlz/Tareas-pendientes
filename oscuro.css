@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: rgb(21, 29, 41);
+    background: linear-gradient(0deg,rgb(88, 78, 129) 13%, rgb(40, 42, 78) 50%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    color: #404a66;
+    display: flex;
+    justify-content: center;
+}
+#frase{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: #63758b;
+}
+.contenedor{
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.encabezado{
+    color: #b8c2e4;
+    padding: 20px 0 5px 0;
+}
+.en-superior {
+    display: flex;
+    align-items: center;
+}
+#fecha{
+    color: #68749e;
+    margin-right: 110px; 
+}
+#tema{
+    font-size: 2rem;
+    color: rgb(163, 176, 235);
+    margin-left: 50px;
+}
+.agregar{
+    background-color: #8390b3;
+    border-radius: 15px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.agregar input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: #413f66;
+}
+
+.agregar input::placeholder{
+    font-size: 1.1rem;
+    color: #656d9b;
+}
+.agregar i{
+    font-size: 45px;
+    color: #4533a7;
+}
+.agregar i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.agregar{
+    background-color: #8390b3;
+    border-radius: 15px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.oscuro i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    color: white;
+}
+
+/* sección de tareas */
+.tareas h2{
+    margin-bottom: 20px;
+    /* color: #8C3061; */
+}
+.tareas li{
+    background-color: #8897d8;
+    border-radius: 15px;
+    padding: 10px;
+    color: #cccee0;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tareas{
+    font-size: 25px;
+    font-weight: 200;
+}
+.tareas p{
+    font-weight: 600;
+}
+
+.tareas i:hover{
+    color: #15025a;
+    cursor: pointer;
+}
+
+.tachado{
+    text-decoration: line-through;
+    color: #3b0e06;
+}
